@@ -23,13 +23,10 @@ fi
 yay -S --noconfirm cool-retro-term fastfetch
 
 # Install recommended tools
-sudo pacman -S --noconfirm vlc gimp audacity htop timeshift wine proton mangohud libreoffice flameshot plank ufw keepassxc
+sudo pacman -S --noconfirm gimp htop timeshift wine proton mangohud keepassxc
 
 # Install development tools
 sudo pacman -S --noconfirm code git python
-
-# Enable firewall (ufw)
-sudo ufw enable
 
 # Set up fastfetch for fun
 echo "fastfetch" >> ~/.bashrc
@@ -41,6 +38,6 @@ wget -O "$WALLPAPER_PATH" "$WALLPAPER_URL"
 plasma-apply-wallpaperimage "$WALLPAPER_PATH"
 
 # Install KDE-specific tools (optional)
-sudo pacman -S --noconfirm kdeplasma-addons kde-gtk-config
+# sudo pacman -S --noconfirm kdeplasma-addons kde-gtk-config
 
 echo "Setup complete! Enjoy your new KDE Plasma system."
