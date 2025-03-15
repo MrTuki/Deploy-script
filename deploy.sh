@@ -4,9 +4,10 @@
 sudo pacman -Syu --noconfirm
 
 # Install requested apps
-sudo pacman -S --noconfirm discord steam lutris bottles obs-studio handbrake vulkan-radeon amdvlk
-# Install zen browser
+sudo pacman -S --noconfirm discord steam lutris obs-studio handbrake vulkan-radeon amdvlk
+# Install flatpak specific apps
 flatpak install flathub app.zen_browser.zen -y
+flatpak install flathub com.usebottles.bottles -y
 
 # Install yay (AUR helper) if not already installed
 if ! command -v yay &> /dev/null; then
