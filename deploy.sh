@@ -4,7 +4,7 @@
 sudo pacman -Syu --noconfirm
 
 # Install requested apps
-sudo pacman -S --noconfirm discord steam lutris bottles obs-studio handbrake
+sudo pacman -S --noconfirm discord steam lutris bottles obs-studio handbrake vulkan-radeon amdvlk
 # Install zen browser
 flatpak install flathub app.zen_browser.zen -y
 
