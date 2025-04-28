@@ -20,7 +20,7 @@ sudo pacman -S gimp htop timeshift wine proton mangohud keepassxc
 sudo pacman -S code git python
 
 # Set up fastfetch for fun
-echo "fastfetch" >> ~/.bashrc
+# echo "fastfetch" >> ~/.bashrc
 
 # Set a cool retro wallpaper (optional)
 WALLPAPER_URL="https://wallpapercave.com/wp/wp14672978.jpg"  # Replace with your preferred wallpaper URL
