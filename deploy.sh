@@ -4,14 +4,18 @@
 sudo pacman -Syu
 
 # Install requested apps
-sudo pacman -S discord steam lutris obs-studio handbrake vulkan-radeon amdvlk
+sudo pacman -S discord steam lutris obs-studio handbrake android-udev
 
 # Install flatpak specific apps
 flatpak install flathub app.zen_browser.zen
 flatpak install flathub com.usebottles.bottles
+flatpak install flathub io.github.wivrn.wivrn
+
 
 # Install AUR packages (cool-retro-term and fastfetch)
 yay -S cool-retro-term fastfetch
+yay -S android-tools
+yay -S alvr
 
 # Install recommended tools
 sudo pacman -S gimp htop timeshift wine proton mangohud keepassxc
