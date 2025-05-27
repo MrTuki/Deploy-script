@@ -1,5 +1,0 @@
-Test from Termux, you mean QTerm on Lubuntu
-and not testing conflicts
-or do I?
-no i do not, bruh
-
