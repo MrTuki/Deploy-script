@@ -15,7 +15,7 @@ flatpak install flathub io.github.wivrn.wivrn
 # Install AUR packages (cool-retro-term and fastfetch)
 yay -S cool-retro-term fastfetch
 yay -S android-tools
-yay -S alvr
+# yay -S alvr
 
 # Install recommended tools
 sudo pacman -S gimp htop timeshift wine proton mangohud keepassxc
