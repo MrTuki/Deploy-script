@@ -4,7 +4,7 @@
 sudo pacman -Syu
 
 # Install requested apps
-sudo pacman -S discord steam lutris obs-studio handbrake android-udev
+sudo pacman -S discord steam lutris obs-studio handbrake android-udev tldr
 
 # Install flatpak specific apps
 flatpak install flathub app.zen_browser.zen
@@ -16,6 +16,7 @@ flatpak install flathub io.github.wivrn.wivrn
 yay -S cool-retro-term fastfetch
 yay -S android-tools
 # yay -S alvr
+yay -S portprton
 
 # Install recommended tools
 sudo pacman -S gimp htop timeshift wine proton mangohud keepassxc
@@ -25,6 +26,9 @@ sudo pacman -S code git python
 
 # Set up fastfetch for fun
 # echo "fastfetch" >> ~/.bashrc
+
+# update tldr database
+tldr -u
 
 # Set a cool retro wallpaper (optional)
 WALLPAPER_URL="https://wallpapercave.com/wp/wp14672978.jpg"  # Replace with your preferred wallpaper URL
