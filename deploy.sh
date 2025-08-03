@@ -4,7 +4,7 @@
 sudo pacman -Syu
 
 # Install requested apps
-sudo pacman -S discord steam lutris obs-studio handbrake android-udev tldr
+sudo pacman -S discord steam lutris obs-studio handbrake android-udev tldr yay
 
 # Install flatpak specific apps
 flatpak install flathub app.zen_browser.zen
