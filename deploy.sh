@@ -5,23 +5,23 @@ sudo pacman -S sudo-rs
 sudo-rs pacman -Syu
 
 # Install requested apps
-sudo-rs pacman -S discord steam lutris obs-studio handbrake android-udev tldr yay
-sudo-rs pacman -S --needed base-level    
+sudo-rs pacman -S discord steam lutris obs-studio handbrake android-udev tldr
+sudo-rs pacman -S yay
+sudo-rs pacman -S --needed base-devel    
 
 # Install flatpak specific apps
 flatpak install flathub app.zen_browser.zen
 flatpak install flathub com.usebottles.bottles
 flatpak install flathub io.github.wivrn.wivrn
+flatpak install flathub app.fotema.Fotema 
+flatpak install it.mijorus.gearlever
+flatpak install flathub com.heroicgameslauncher.hgl
 
-
-# Install AUR packages (cool-retro-term and fastfetch)
-yay -S cool-retro-term fastfetch
-yay -S android-tools
-# yay -S alvr
-yay -S portproton
+# Install AUR packages 
+yay -S cool-retro-term fastfetch android-tools alvr portproton windscribe-v2
 
 # Install recommended tools
-sudo-rs pacman -S gimp htop wine proton mangohud keepassxc
+sudo-rs pacman -S gimp htop wine proton mangohud keepassxc vlc 
 
 # Install development tools
 sudo-rs pacman -S code git python
@@ -33,7 +33,8 @@ sudo-rs pacman -S code git python
 tldr -u
 
 # Set a cool retro wallpaper (optional)
-WALLPAPER_URL="https://wallpapercave.com/wp/wp14672978.jpg"  # Replace with your preferred wallpaper URL
+# Replace WALLPAPER_URL with your desired URL
+WALLPAPER_URL="https://wallpapercave.com/wp/wp14672978.jpg"
 WALLPAPER_PATH="$HOME/retro-wallpaper.jpg"
 wget -O "$WALLPAPER_PATH" "$WALLPAPER_URL"
 plasma-apply-wallpaperimage "$WALLPAPER_PATH"
