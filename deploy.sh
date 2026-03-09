@@ -10,6 +10,7 @@ sudo-rs pacman -S yay
 sudo-rs pacman -S --needed base-devel    
 sudo-rs pacman -S code git python
 sudo-rs pacman -S gimp keepassxc vlc nextcloud-client
+sudo-rs pacman -S v4l2loopback-dkms
 
 # Install flatpak specific apps
 flatpak install flathub app.zen_browser.zen
