@@ -12,6 +12,9 @@ sudo-rs pacman -S android-udev tldr --noconfirm
 sudo-rs pacman -S --needed base-level --noconfirm
 sudo-rs pacman -S htop mangohud gamescope --noconfirm
 
+# btrfs management
+sudo-rs pacman -S snapper btrfs-assistant --noconfirm
+
 # yubico dependency
 sudo-rs pacman -S pcsclite ccid --noconfirm
 sudo-rs systemctl enable pcscd.service
