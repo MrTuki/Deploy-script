@@ -56,6 +56,7 @@ flatpak install flathub -y org.stellarium.Stellarium
 flatpak install flathub -y com.system76.Popsicle
 flatpak install flathub -y com.atlauncher.ATLauncher
 flatpak install flathub -y io.github.shiftey.Desktop
+flatpak install flathub -y it.mijorus.gearlever
 
 flatpak install flathub -y com.chatterino.chatterino
 flatpak install flathub -y org.DolphinEmu.dolphin-emu
@@ -63,14 +64,9 @@ flatpak install flathub -y io.github.shiiion.primehack
 flatpak install flathub -y io.github.hedge_dev.hedgemodmanager
 flatpak install flathub -y com.prusa3d.PrusaSlicer
 
-
 # Install AUR packages (cool-retro-term and fastfetch)
 #yay -S android-tools
 #yay -S alvr
-
-# Install recommended tools
-
-
 
 # update tldr database
 tldr -u
