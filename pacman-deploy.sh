@@ -11,7 +11,8 @@ paru -S obs-studio-git
 sudo-rs pacman -S android-udev tldr --noconfirm
 sudo-rs pacman -S --needed base-level --noconfirm
 sudo-rs pacman -S htop mangohud gamescope --noconfirm
-
+sudo-rs pacman -S flatpak --noconfirm
+#sudo-rs pacman -S fastfetch --noconfirm
 # btrfs management
 sudo-rs pacman -S snapper btrfs-assistant --noconfirm
 
