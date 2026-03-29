@@ -9,6 +9,7 @@ paru -S obs-studio-git
 
 # Pacman
 sudo-rs pacman -S android-udev tldr --noconfirm
+sudo-rs pacman -S fprintd --noconfirm
 sudo-rs pacman -S --needed base-level --noconfirm
 sudo-rs pacman -S htop mangohud gamescope --noconfirm
 sudo-rs pacman -S flatpak --noconfirm
@@ -77,7 +78,8 @@ tldr -u
 
 
 echo "Setup complete! Enjoy your new KDE Plasma system. ᗜˬᗜ"
-echo "System Reboot in 30 seconds"
+#echo "System Reboot in 30 seconds"
+#sleep 30
+echo "Make sure to Reboot your system after you are done ᗜ˰ᗜ"
 sleep 30
-echo "Reboot ᗜ˰ᗜ"
-sudo-rs reboot now
+#sudo-rs reboot now
