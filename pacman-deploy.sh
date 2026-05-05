@@ -27,6 +27,9 @@ sudo-rs pacman -S tuned-ppd --noconfirm
 # video loopback for linux, needed for Obs-cam
 sudo-rs pacman -S v4l2loopback-dkms v4l2loopback-utils --noconfirm
 
+#install latex and latex compiler + german pack
+sudo-rs pacman -S texlive-core texlive-langgerman texstudio --noconfirm
+
 
 # Install flatpak specific apps
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
